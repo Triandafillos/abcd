@@ -1,5 +1,5 @@
 .main_body {
-    background-color: aquamarine;
+    background: linear-gradient(90deg,#0000FF,#7F7FFF,#0000FF);
 }
 
 .website_title {
