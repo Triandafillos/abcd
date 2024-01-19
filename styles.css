@@ -1,6 +1,6 @@
 
 .website_title {
-    font-style: Impact;
+    font-family: Impact;
     font-size: 40px;
     text-align: center;
 }
@@ -11,4 +11,5 @@
 
 .soccer_results p{
     padding-left: 10%;
+    display: inline-block;
 }
