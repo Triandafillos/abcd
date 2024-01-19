@@ -25,7 +25,7 @@
 }
 
 .soccer_results div{
-    padding-left: 10%;
+    padding: 50px 10%;
     display: inline-block;
     border: 5px solid black;
     text-align: left;
@@ -36,8 +36,10 @@
 
 .left_result {
     background-color: white;
+    float: left;
 }
 
 .right_result {
     background-color: grey;
+    float: right;
 }
