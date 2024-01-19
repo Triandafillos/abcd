@@ -1,7 +1,11 @@
-h1,h2 {
+h1 {
     text-align: center;
 }
 
-.soccer_results {
+.soccer_results h2 {
+    text-align: center;
+}
+
+.soccer_results p{
     padding-left: 10%;
 }
