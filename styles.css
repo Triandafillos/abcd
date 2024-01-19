@@ -22,19 +22,19 @@
     text-align: center;
 }
 
-.soccer_results p{
+.soccer_results div{
     padding-left: 10%;
     display: inline-block;
 }
 
 .left_result {
     text-align: left;
-    width: 50%;
+    width: 40%;
     background-color: white;
 }
 
 .right_result {
-    text-align: right;
-    width: 50%;
+    text-align: left;
+    width: 40%;
     background-color: grey;
 }
