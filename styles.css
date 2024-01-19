@@ -1,8 +1,15 @@
+.main_body {
+    background-color: aquamarine;
+}
 
 .website_title {
     font-family: Impact;
     font-size: 40px;
     text-align: center;
+}
+
+.soccer_results section{
+    max-width: 500px;
 }
 
 .soccer_results h2 {
@@ -16,8 +23,10 @@
 
 .left_result {
     text-align: left;
+    width: 50%;
 }
 
 .right_result {
     text-align: right;
+    width: 50%;
 }
