@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+.soccer_title {
+    font-family: Arial;
+    font-size: 30px;
+    font-style:italic;
+}
+
 .soccer_results section{
     /*max-width: 500px;*/
 }
@@ -24,9 +30,11 @@
 .left_result {
     text-align: left;
     width: 50%;
+    background-color: white;
 }
 
 .right_result {
     text-align: right;
     width: 50%;
+    background-color: grey;
 }
