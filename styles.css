@@ -8,6 +8,7 @@
     text-align: center;
     background: linear-gradient(90deg,#4F7FFF,#89caff 10% 90%,#4F7FFF);
     margin: 0;
+    padding: 50px 0;
 }
 
 .soccer_title {
@@ -29,7 +30,7 @@
     display: inline-block;
     border: 5px solid black;
     text-align: left;
-    width: 30%;
+    width: 20%;
     height: 200px;
     font-size: 20px;
 }
