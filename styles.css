@@ -14,6 +14,10 @@
     text-shadow: 0 0 2px #000000;
 }
 
+.login-screen label{
+    display: block;
+}
+
 .soccer_title {
     font-family: Arial;
     font-size: 30px;
