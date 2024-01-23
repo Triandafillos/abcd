@@ -1,5 +1,5 @@
 .main_body {
-    background: white;
+    /*background: white;*/
     margin: 0;
 }
 
@@ -33,7 +33,7 @@
     padding: 20px;
 }
 
-.soccer_results h2 {
+/*.soccer_results h2 {
     text-align: center;
 }
 
