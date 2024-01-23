@@ -41,15 +41,17 @@
     width: 50%;
     height: 100px;
     display: inline-block;
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center left;
+    font-size: 20px;
 }
 
 .left_result {
-    border-color: grey;
     background-color: white;
     
 }
 
 .right_result {
-    border-color: orange;
     background-color: grey;
 }
