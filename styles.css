@@ -38,13 +38,12 @@
 }
 
 .left_result, .right_result {
-    width: 40%;
+    width: 45%;
     height: 100px;
     display: inline-block;
     border: 5px solid black;
     margin: 5px;
     font-size: 20px;
-    padding: auto 10px;
 }
 
 .left_result {
@@ -54,4 +53,5 @@
 
 .right_result {
     background-color: grey;
+    float: right;
 }
