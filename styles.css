@@ -27,8 +27,9 @@
 .soccer_results section{
     /*max-width: 500px;*/
     height: 500px;
-    width: auto;
+    width: 500px;
     background-color: yellow;
+    padding: 20px;
 }
 
 .soccer_results h2 {
