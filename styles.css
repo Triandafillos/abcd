@@ -37,14 +37,19 @@
     margin: 10px 0;
 }
 
+.left_result, .right_result {
+    width: 50%;
+    height: 100px;
+    display: inline;
+}
+
 .left_result {
     border-color: grey;
     background-color: white;
-    width: 30%;
+    
 }
 
 .right_result {
     border-color: orange;
     background-color: grey;
-    width: 30%;
 }
