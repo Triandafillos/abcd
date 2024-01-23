@@ -38,13 +38,13 @@
 }
 
 .left_result, .right_result {
-    width: 50%;
+    width: 40%;
     height: 100px;
     display: inline-block;
     border: 5px solid black;
     margin: 5px;
-    text-align: center left;
     font-size: 20px;
+    padding: auto 10px;
 }
 
 .left_result {
