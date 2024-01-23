@@ -40,7 +40,7 @@
 .left_result, .right_result {
     width: 50%;
     height: 100px;
-    display: inline;
+    display: inline-block;
 }
 
 .left_result {
