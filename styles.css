@@ -37,9 +37,6 @@
     padding: 20px;
     margin: 10px 10px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .left_result, .right_result {
@@ -49,6 +46,9 @@
     border: 5px solid black;
     margin: 5px;
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .left_result {
