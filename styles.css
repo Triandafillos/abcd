@@ -21,9 +21,10 @@
 }
 
 .soccer_title {
-    font-size: 30px;
+    font-size: 40px;
     font-style:italic;
     text-align: center;
+    font-weight: 200;
 }
 
 .soccer_results{
@@ -42,7 +43,7 @@
     font-family: Tangerine, serif;
     width: 45%;
     height: 100px;
-    display: inline-block;
+    display: flex;
     border: 5px solid black;
     margin: 5px;
     font-size: 20px;
