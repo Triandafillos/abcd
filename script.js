@@ -6,5 +6,5 @@ button1.onclick = ouch;
 
 function ouch() {
     health = health - 10;
-    healthText = health;
+    healthText.innerText = health;
 }
