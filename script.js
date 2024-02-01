@@ -5,7 +5,9 @@ let health = 100;
 button1.onclick = ouch;
 
 function ouch() {
-    health = health - 10;
+    if(health >0){
+        health = health - 10;
+    }
     healthText.innerText = health;
     if (health < 50) {
         healthText.style.color = "red";
