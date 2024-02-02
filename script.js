@@ -20,6 +20,9 @@ function ouch() {
 }
 
 function login(){
+    console.log(usernameField.innerText.length)
+    console.log(passwordField.innerText.length)
+    console.log(!(usernameField.innerText.length=0)&&(passwordField.innerText.length > 47))
     if(!(usernameField.innerText.length=0)&&(passwordField.innerText.length > 47)){
         console.log("x");
         loginSection.style.display = "none";
