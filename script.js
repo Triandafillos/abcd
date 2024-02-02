@@ -1,6 +1,8 @@
 let button1 = document.querySelector("#healthButton");
 let loginButton = document.querySelector("#login");
 let loginSection = document.querySelector("#loginSection");
+let usernameField = document.querySelector("#username");
+let passwordField = document.querySelector("#password");
 let healthText = document.querySelector("#healthText");
 let health = 100;
 
@@ -18,6 +20,8 @@ function ouch() {
 }
 
 function login(){
-    console.log("x");
-    loginSection.display = "none";
+    if(!(usernameField.innerText.length=0)&&(passwordField.innerText.length > 47)){
+        console.log("x");
+        loginSection.style.display = "none";
+    }
 }
