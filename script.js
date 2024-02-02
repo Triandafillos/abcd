@@ -1,7 +1,7 @@
 let button1 = document.querySelector("#healthButton");
 let loginButton = document.querySelector("#login");
 let loginSection = document.querySelector("#loginSection");
-let loggedIn = false;
+let loggedIn;
 let usernameField = document.querySelector("#username");
 let passwordField = document.querySelector("#password");
 let healthText = document.querySelector("#healthText");
