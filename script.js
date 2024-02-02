@@ -20,11 +20,7 @@ function ouch() {
 }
 
 function login(){
-    console.log(usernameField.innerText.length)
-    console.log(passwordField.innerText.length)
-    console.log(!(usernameField.innerText.length=0)&&(passwordField.innerText.length > 47))
-    if(!(usernameField.innerText.length=0)&&(passwordField.innerText.length > 47)){
-        console.log("x");
+    if(!(usernameField.value.length=0)&&(passwordField.value.length > 47)){
         loginSection.style.display = "none";
     }
 }
