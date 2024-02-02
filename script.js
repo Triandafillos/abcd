@@ -18,5 +18,6 @@ function ouch() {
 }
 
 function login(){
-    loginSection.display = none;
+    console.log("x");
+    loginSection.display = "none";
 }
